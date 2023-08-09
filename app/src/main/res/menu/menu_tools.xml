@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/optAttachFile"
+        android:title="@string/send_file"/>
+    <item
+        android:id="@+id/optLocation"
+        android:title="@string/set_gps"/>
+    <item
+        android:id="@+id/optCamera"
+        android:title="@string/send_photo_video"/>
+    <item
+        android:id="@+id/optCallPhone"
+        android:title="@string/call_phone"/>
+
+</menu>

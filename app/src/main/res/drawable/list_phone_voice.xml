@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!--<transition xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/phone_voice_1"
+        android:duration="500" />
+    <item
+        android:drawable="@drawable/phone_voice_2"
+        android:duration="500" />
+    <item
+        android:drawable="@drawable/phone_voice_3"
+        android:duration="500" />
+</animation-list>

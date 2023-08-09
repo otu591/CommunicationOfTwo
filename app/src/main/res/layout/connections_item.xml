@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="10dp">
+
+
+    <LinearLayout
+        android:id="@+id/llBlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTimeConnection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E9F3F4"
+            android:gravity="end"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llBlockAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivAvatar"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    tools:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+                <TextView
+                    android:id="@+id/tvNameConnection"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:hint="@string/name"
+                    android:maxWidth="120dp"
+                    android:maxHeight="50dp"
+                    android:padding="5dp"
+                    android:text="ХХХХХХ"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llBlockTools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/optSelectItem"
+                android:layout_toEndOf="@id/llBlockAccount"
+                android:gravity="bottom|end"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ibAddNewContact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/ic_baseline_person_add_24" />
+
+                <ImageButton
+                    android:id="@+id/ibMail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/ic_baseline_mark_email_unread_24" />
+
+
+                <TextView
+                    android:id="@+id/tvMissedCalls"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:drawableBottom="@drawable/ic_baseline_phone_missed_24"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvPhone"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:drawableBottom="@drawable/ic_phone_missed" />
+            </LinearLayout>
+
+
+            <RadioButton
+                android:id="@+id/optSelectItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="25dp"
+                android:padding="3dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvWarningConnection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/debug_def_contact"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

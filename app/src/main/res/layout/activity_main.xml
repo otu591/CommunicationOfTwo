@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/llContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llTitlePage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rlChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorDarkerAccent"
+                android:orientation="vertical"
+                android:paddingBottom="6dp">
+
+                <TextView
+                    android:id="@+id/tvTitlePageChat"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@drawable/custom_image_button_white"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/chat" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlConnections"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="6dp">
+
+                <TextView
+                    android:id="@+id/tvTitlePageConnections"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@drawable/custom_image_button_white"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/connections2" />
+
+                <TextView
+                    android:id="@+id/tvEventNewConnection"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_alignTop="@id/tvTitlePageConnections"
+                    android:layout_alignBottom="@id/tvTitlePageConnections"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/custom_image_button"
+                    android:maxLength="3"
+                    android:minWidth="30dp"
+                    android:padding="3dp"
+                    android:textColor="@color/blue"
+                    android:textSize="10sp"
+                    android:visibility="invisible"
+                    app:drawableTopCompat="@drawable/ic_baseline_connect_without_contact_16" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llBlockLayoutsRotateOrientation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fon_chata"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlTop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/llBlockRecipient"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTitleRecipient"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_image_button_white"
+                        android:padding="5dp"
+                        android:text="@string/to_whom"
+                        android:textColor="@color/blue_light"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvRecipientMessage"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:paddingStart="20dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:textColor="@color/red"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvHistoryMessages"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/llBlockPhone"
+                    android:layout_below="@id/ibSendMessage"
+                    android:layout_marginTop="5dp" />
+
+                <ImageView
+                    android:id="@+id/ivMenuTools"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_below="@id/llBlockRecipient"
+                    android:background="@drawable/custom_image_button_white"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/ic_baseline_more_vert_24" />
+
+                <EditText
+                    android:id="@+id/etText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/llBlockRecipient"
+                    android:layout_toStartOf="@id/ibSendMessage"
+                    android:layout_toEndOf="@id/ivMenuTools"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:maxLength="500"
+                    android:minHeight="42dp"
+                    android:padding="5dp"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/ibClearText"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_below="@id/llBlockRecipient"
+                    android:layout_toStartOf="@id/ibSendMessage"
+                    android:background="@drawable/custom_image_button"
+                    android:visibility="invisible"
+                    app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+                <ImageButton
+                    android:id="@+id/ibRecordMessage"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_below="@id/llBlockRecipient"
+                    android:layout_gravity="end"
+                    android:layout_toStartOf="@id/ibSendMessage"
+                    android:background="@drawable/custom_image_button"
+                    android:padding="6dp"
+                    app:srcCompat="@drawable/ic_baseline_mic_24"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/ibSendMessage"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_below="@id/llBlockRecipient"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/custom_image_button_white"
+                    app:srcCompat="@drawable/ic_baseline_send_24"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <LinearLayout
+                    android:id="@+id/llBlockPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fabCancelCallPhone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+
+                        app:backgroundTint="@android:color/holo_red_dark"
+                        app:srcCompat="@drawable/phone_call"
+                        app:tint="@color/white" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fabAcceptCallPhone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        android:clickable="true"
+                        app:srcCompat="@drawable/ic_baseline_phone_24"
+                        app:tint="@color/white" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/flMapBlockChat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.8"
+                    android:background="@color/teal_900"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="invisible">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <ProgressBar
+                            android:id="@+id/prgBarChat"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/tvPrgInfoChat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/recovery_connection"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlBottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvConnectionList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flMapBlock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="@color/black"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="invisible">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/tvProgressInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

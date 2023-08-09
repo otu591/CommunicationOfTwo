@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/eoser/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/stat_sys_speakerphone.xml" value="0.142" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/custom_button2.xml" value="0.11" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/custom_image_button2.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/ic_baseline_block_24.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/ic_baseline_call_made_24.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/ic_baseline_call_received_24.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/ic_baseline_check_24.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/ic_baseline_connect_without_contact_16.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/ic_baseline_connect_without_contact_24.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/ic_baseline_contacts_24.xml" value="0.11" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/ic_baseline_mail_18.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/ic_baseline_mail_24.xml" value="0.142" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/ic_baseline_my_location_24.xml" value="0.1105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/ic_baseline_send_24.xml" value="0.1105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/shape.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/shape2_white.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/shape_background_message.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/shape_dark_gray.xml" value="0.142" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/shape_dark_gray_white.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable-v24/underline.xml" value="0.11" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/animate_phone_voice.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/animated_check.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/background_title_page.xml" value="0.11" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/check_animation.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/check_mark.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/cicler.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/custom_image_button.xml" value="0.1105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/custom_image_button_dial_color.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/custom_image_button_white.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/divider.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_arrow_right_alt_24.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_attach_file_24.xml" value="0.10400000000000001" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_connect_without_contact_24.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_file_present_24.xml" value="0.11" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.1105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_insert_drive_file_24.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_mic_24.xml" value="0.11" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.11" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.1105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_phone_in_talk_24.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_phone_missed_24.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_picture_as_pdf_24.xml" value="0.142" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_play_circle_24.xml" value="0.1105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_priority_high_24.xml" value="0.142" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_speaker_phone_24.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_video_file_24.xml" value="0.1105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_volume_off_24.xml" value="0.142" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_volume_up_24.xml" value="0.142" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_zoom_in_24.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_baseline_zoom_out_24.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_info.xml" value="0.1105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_phone_forwarded.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_phone_forwarded1.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_phone_forwarded2.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_phone_forwarded3.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/ic_phone_missed.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/list_phone_forwarded.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/list_phone_voice.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/phone.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/phone_call.xml" value="0.106" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/phone_voice.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/phone_voice_1.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/phone_voice_2.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/phone_voice_3.xml" value="0.1" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/shape1.xml" value="0.1105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/shape1_white.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/shape2.xml" value="0.1105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/shape2_white.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/shape_dial.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/drawable/shape_white.xml" value="0.105" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/activity_about.xml" value="0.23958333333333334" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/activity_main_pdf.xml" value="0.21739130434782608" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/activity_pdf.xml" value="0.264" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/activity_select_point_in_map.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/activity_video_player.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/activity_view_coding_text.xml" value="0.1743659420289855" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/activity_view_pdf.xml" value="0.24010416666666667" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/block_connect_stream_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/connections_by_criteria_item.xml" value="0.264" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/connections_item.xml" value="0.264" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/contacts_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/dialog_account.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/dialog_block_stream_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/dialog_input_message.xml" value="0.23958333333333334" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/dialog_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/dialog_messages_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/dialog_modify_account.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/dialog_modify_contact.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/dialog_send_file.xml" value="0.25317028985507245" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/fragment_bar.xml" value="0.253125" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/fragment_chat.xml" value="0.11302083333333333" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/fragment_foo.xml" value="0.253125" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/fragment_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/fragment_pdf_renderer_basic.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/in_message_item.xml" value="0.25317028985507245" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/list_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/message_item.xml" value="0.21739130434782608" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/messages_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/my_message_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/out_message_item.xml" value="0.264" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/provider_paths.xml" value="0.15729166666666666" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/settings_activity.xml" value="0.23958333333333334" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/userchat_item.xml" value="0.21603260869565216" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/layout/your_message_item.xml" value="0.264" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/menu/main.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/menu/menu_tools.xml" value="0.25416666666666665" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/xml/provider_paths.xml" value="0.18369829683698297" />
+        <entry key="..\:/myDoc/AndroidStudioProjects/CommunicationOfTwo/app/src/main/res/xml/root_preferences.xml" value="0.18066939890710382" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

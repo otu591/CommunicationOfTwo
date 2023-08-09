@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/optVoicePhone"
+
+        android:icon="@drawable/ic_baseline_phone_24"
+        android:title="@string/voice_communication"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/optMail"
+        android:icon="@drawable/ic_baseline_mark_email_unread_24"
+        android:title="@string/no_read_message"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/optShowBlocked"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="@string/block_connect"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/optRunToConnection"
+
+        android:icon="@drawable/ic_baseline_connect_without_contact_24_white"
+        android:title="@string/select_contact"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/optMyIP"
+        android:title="@string/my_ip" />
+    <item
+        android:id="@+id/optAccount"
+        android:title="@string/account"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/optMode"
+        android:title="@string/orientation">
+
+        <menu>
+            <item
+                android:id="@+id/modePortrait"
+                android:checkable="true"
+                android:title="@string/portrait" />
+            <item
+                android:id="@+id/modeLandscape"
+                android:checkable="true"
+                android:title="@string/landscape" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/optHistoryChat"
+        android:title="@string/history_chat">
+        <menu>
+            <item
+                android:id="@+id/optCloseCurrChat"
+                android:title="@string/close_cur_chat" />
+            <item
+                android:id="@+id/optDelCurrentChat"
+                android:enabled="false"
+                android:title="@string/del_cur_chat" />
+
+            <item
+                android:id="@+id/optChooseChat"
+                android:title="@string/get_all_chat" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/optAbout"
+        android:title="@string/about" />
+    <item
+        android:id="@+id/optExit"
+        android:title="@string/exit" />
+</menu>
